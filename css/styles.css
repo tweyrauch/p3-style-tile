@@ -40,7 +40,9 @@ section {
 .color-5,
 .pattern-1,
 .pattern-2,
-.pattern-3 {
+.pattern-3,
+.pattern-4,
+.pattern-5 {
 	border: 1px solid #000;
 	float: left;
 	margin: 0 10px;
@@ -58,7 +60,7 @@ section {
 /*Fonts*/
 h1{
 	font-family: 'Petit Formal Script', cursive;
-	font-size: 2em;
+	font-size: 3em;
 	line-height: 1.5em;
 	color:#3E5866;
 }
@@ -107,3 +109,23 @@ a{
 }
 
 
+/*Patterns*/
+.pattern-1{
+	background: url("../img/crossword.png");
+}
+
+.pattern-2{
+	background: url("../img/linedpaper.png");
+}
+
+.pattern-3{
+	background: url("../img/notebook.png");
+}
+
+.pattern-4{
+	background: url("../img/brushed_alu.png");
+}
+
+.pattern-5{
+	background: url("../img/brushed_alu_dark.png");
+}

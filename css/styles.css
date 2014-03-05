@@ -1,0 +1,107 @@
+body{
+	
+}
+
+.container{
+	width: 75%;
+	max-width:1000px;
+	margin: 0 auto;
+}
+
+section:nth-child(1){
+	width: 100%;
+}
+
+footer{
+	padding: 15px;
+	clear: left;
+}
+
+img{
+	width: 150px;
+}
+
+/* Set Your Own Margin & Padding */
+h1, h2, h3, p {
+	margin: 0;
+}
+
+/* Layout for Style Tile*/
+section {
+	padding: 15px;
+	width: 45%;
+	float: left;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.color-4,
+.color-5,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
+
+
+/*Fonts*/
+h1{
+	font-size: 2em;
+	line-height: 1.5em;
+	color:#3E5866;
+}
+
+h2{
+	font-size: 1.5em;
+	line-height: 1.5em;
+	color: #5C4C38;
+}
+
+h3{
+	font-size: 1.25em;
+	line-height: 1.5em;
+}
+
+p{
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+a{
+	color: rgba(62,88,102,.8);
+	text-decoration: none;
+}
+
+/*Colors*/
+.color-1{
+	background: #E4F4FC;
+}
+
+.color-2{
+	background: #8EA4B0;
+}
+
+.color-3{
+	background: #3E5866;
+}
+
+.color-4{
+	background: #FFEBD1;
+}
+
+.color-5{
+	background: #5C4C38;
+}
+
+

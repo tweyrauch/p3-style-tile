@@ -3,11 +3,10 @@ body{
 }
 
 .container{
+	background:#E4F4FC;
 	width: 75%;
 	max-width:1000px;
 	margin: 0 auto;
-	background:#E4F4FC;
-
 }
 
 header{
@@ -34,30 +33,27 @@ img{
 
 /* Set Your Own Margin & Padding */
 h1, h2, h3, p {
-	margin: 5px 0;
+	margin: 10px;
 }
 
 /* Layout for Style Tile*/
 section {
+	background:#E4F4FC;
 	padding: 15px;
 	width: 45%;
 	float: left;
-
-	background:#E4F4FC;
 }
 
+section:nth-child(1){
+	border-right: 1px dashed #8EA4B0; 
+}
 
 
 .color-1,
 .color-2,
 .color-3,
 .color-4,
-.color-5,
-.pattern-1,
-.pattern-2,
-.pattern-3,
-.pattern-4,
-.pattern-5 {
+.color-5{
 	border: 1px solid #000;
 	float: left;
 	margin: 0 10px;
@@ -65,6 +61,16 @@ section {
 	width: 50px;
 }
 
+.pattern-1,
+.pattern-2,
+.pattern-3,
+.pattern-4{
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 75px;
+	width: 75px;
+}
 
 /* Show Grid */
 .showgrid {
@@ -98,6 +104,8 @@ p{
 	line-height: 1.5em;
 }
 
+/* LINKS */
+
 a{
 	text-decoration: none;
 }
@@ -121,6 +129,7 @@ footer li:nth-child(-1n+2) a:link,
 footer li:nth-child(-1n+2) a:visited{
 	background: linear-gradient(#8EA4B0, #E4F4FC, #8EA4B0);
 	color:#3E5866;
+	border: 1px outset #8EA4B0;
 	border-radius: 2px;
 	box-shadow: 0 0 5px gray;
 }
@@ -202,13 +211,9 @@ footer li:nth-child(1n+3) a:active:after{
 }
 
 .pattern-3{
-	background: url("../img/notebook.png");
-}
-
-.pattern-4{
 	background: url("../img/brushed_alu.png");
 }
 
-.pattern-5{
+.pattern-4{
 	background: url("../img/brushed_alu_dark.png");
 }
